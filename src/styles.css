@@ -1,0 +1,140 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url(../img/bg-city.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  /* background-position: center; */
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+  color: #009cf7;
+  box-shadow: 0 5px 12px rgb(1 138 225 / 30%);
+  border: 2px solid #009cf7;
+  border-radius: 6px;
+  margin-right: 20px;
+  border-radius: 12px;
+  max-width: 355px;
+  cursor: pointer;
+}
+
+.selectedItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+  background-color: #8762ff;
+  color: white;
+  box-shadow: 0 5px 12px rgb(1 138 225 / 30%);
+  border: 2px solid #8762ff;
+  border-radius: 6px;
+  margin-right: 10px;
+  border-radius: 12px;
+  max-width: 355px;
+  cursor: pointer;
+}
+/* #8762ff */
+
+.button {
+  box-sizing: border-box;
+  height: 40px;
+  /* min-width: 225px; */
+  /* padding: 15px 20px; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #009cf7;
+  border-radius: 6px;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 600;
+  line-height: 1;
+  transition-duration: 0.2s;
+  color: #fff;
+  background-color: #009cf7;
+  -webkit-box-shadow: 0 5px 18px rgb(1 138 225 / 40%);
+  box-shadow: 0 5px 18px rgb(1 138 225 / 40%);
+}
+
+.button:hover {
+  box-sizing: border-box;
+  /* min-width: 225px; */
+  /* padding: 15px 20px; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #009cf7;
+  border-radius: 6px;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 600;
+  line-height: 1;
+  transition-duration: 0.2s;
+  color: #009cf7;
+  background-color: #fff;
+  box-shadow: 0 5px 12px rgb(1 138 225 / 30%);
+  border: 2px solid #009cf7;
+}
+
+.selectedButton {
+  box-sizing: border-box;
+  height: 40px;
+  /* min-width: 225px; */
+  /* padding: 15px 20px; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 600;
+  line-height: 1;
+  transition-duration: 0.2s;
+  color: #fff;
+  background-color: #8762ff;
+  /* -webkit-box-shadow: 0 5px 18px rgb(1 138 225 / 40%); */
+  /* box-shadow: 0 5px 18px rgb(1 138 225 / 40%); */
+}
+
+.selectedButton:hover {
+  box-sizing: border-box;
+  /* min-width: 225px; */
+  /* padding: 15px 20px; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #8762ff;
+  border-radius: 6px;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 600;
+  line-height: 1;
+  transition-duration: 0.2s;
+  color: #8762ff;
+  background-color: #fff;
+  box-shadow: 0 5px 12px rgb(1 138 225 / 30%);
+  border: 2px solid #8762ff;
+}
+
+.delete {
+  display: none;
+}
